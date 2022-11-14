@@ -1,19 +1,16 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import TicTacToe from './components/TicTacToe/TicTacToe.vue';
 </script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <aside>
+    <h1>Advent of Vue</h1>
+    <a href="/tic-tac-toe">
+      Tic Tac Toe
+    </a>
+  </aside>
 
   <main>
-    <TheWelcome />
+    <TicTacToe />
   </main>
 </template>
 
